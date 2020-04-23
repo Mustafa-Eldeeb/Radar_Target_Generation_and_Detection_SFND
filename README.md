@@ -158,6 +158,12 @@ else
 end
 ```
 
+Display the CFAR output
+```
+figure('Name','CA-CFAR Filtered RDM'),surf(doppler_axis,range_axis,CFAR_sig);
+colorbar;
+```
+Result:
 
-
+<img src="images/CA-CFAR_F_RDM.png" width="700" />
 
