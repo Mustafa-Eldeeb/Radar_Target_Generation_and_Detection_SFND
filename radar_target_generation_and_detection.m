@@ -193,6 +193,5 @@ end
 % *%TODO* :
 %display the CFAR output using the Surf function like we did for Range
 %Doppler Response output.
-figure('Name','CA-CFAR Filtered RDM')
-surf(doppler_axis,range_axis,RDM);
+figure('Name','CA-CFAR Filtered RDM'),surf(doppler_axis,range_axis,CFAR_sig);
 colorbar;
